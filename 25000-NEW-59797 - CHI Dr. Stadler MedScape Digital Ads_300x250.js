@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"25000_NEW_59797 _ CHI Dr. Stadler MedScape Digital Ads_300x250_atlas_1", frames: [[0,539,319,243],[426,302,336,275],[0,302,424,235],[0,0,1050,300]]}
+		{name:"25000_NEW_59797 _ CHI Dr. Stadler MedScape Digital Ads_300x250_atlas_1", frames: [[0,816,319,243],[0,539,336,275],[0,302,424,235],[0,0,1050,300],[1052,0,280,826]]}
 ];
 
 
@@ -56,9 +56,10 @@ lib.ssMetadata = [
 
 
 (lib.Image_1 = function() {
-	this.initialize(img.Image_1);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,1200,3540);// helper functions:
+	this.initialize(ss["25000_NEW_59797 _ CHI Dr. Stadler MedScape Digital Ads_300x250_atlas_1"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop, this.reversed));
@@ -158,11 +159,11 @@ if (reversed == null) { reversed = false; }
 	var mask = new cjs.Shape();
 	mask._off = true;
 	mask.graphics.p("ArfS2MAAAglsIW/AAMAAAAlsg");
-	mask.setTransform(73.575,120.65);
+	mask.setTransform(73.6,120.65);
 
 	// Layer_3
 	this.instance = new lib.Image_1();
-	this.instance.setTransform(32.45,45.85,0.1042,0.1042);
+	this.instance.setTransform(20.4,51.15,0.5239,0.5239);
 
 	var maskedShapeInstanceList = [this.instance];
 
@@ -174,10 +175,10 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.ClipGroup, new cjs.Rectangle(32.5,45.9,114.69999999999999,195.4), null);
+}).prototype = getMCSymbolPrototype(lib.ClipGroup, new cjs.Rectangle(20.4,51.2,126.79999999999998,190.10000000000002), null);
 
 
-(lib.dr_Image = function(mode,startPosition,loop,reversed) {
+(lib.image_low_3 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -190,13 +191,13 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.instance = new lib.ClipGroup();
-	this.instance.setTransform(46.35,161.55,1,1,0,0,0,78.8,207.4);
+	this.instance.setTransform(63.1,190.85,1,1,0,0,0,83.5,242);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.dr_Image, new cjs.Rectangle(-32.4,-45.8,157.5,414.8), null);
+}).prototype = getMCSymbolPrototype(lib.image_low_3, new cjs.Rectangle(-20.4,-51.1,167.1,483.90000000000003), null);
 
 
 // stage content:
@@ -226,8 +227,8 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(201).to({_off:false},0).to({alpha:1},40).wait(78).to({alpha:0},11).wait(5));
 
 	// image
-	this.instance_2 = new lib.dr_Image();
-	this.instance_2.setTransform(231.6,216.15,1,1,0,0,0,46.3,161.6);
+	this.instance_2 = new lib.image_low_3();
+	this.instance_2.setTransform(236.3,255.65,1,1,0,0,0,63.1,190.8);
 	this.instance_2.alpha = 0;
 	this.instance_2._off = true;
 
@@ -259,7 +260,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(150,125,160.39999999999998,298.6);
+p.nominalBounds = new cjs.Rectangle(150,125,169.89999999999998,372.6);
 // library properties:
 lib.properties = {
 	id: 'A5AB2BACC72E4C83915CCF4811BE1CE6',
@@ -269,7 +270,6 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Image_1.png", id:"Image_1"},
 		{src:"images/25000_NEW_59797 _ CHI Dr. Stadler MedScape Digital Ads_300x250_atlas_1.png", id:"25000_NEW_59797 _ CHI Dr. Stadler MedScape Digital Ads_300x250_atlas_1"}
 	],
 	preloads: []
